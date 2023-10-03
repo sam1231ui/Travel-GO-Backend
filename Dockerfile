@@ -3,6 +3,6 @@ COPY . .
 Run mvn clean package -DskipTests
 
 From openjdk:17.0.1-jdk-slim
-COPY --from=build /target/TravelGo-0.0.1-SNAPSHOT.jar demo.jar
+COPY --from=build /target/travelgo-0.0.1-SNAPSHOT.jar demo.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "demo.jar"]
