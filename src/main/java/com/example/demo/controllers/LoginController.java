@@ -15,7 +15,7 @@ import com.example.demo.entities.LoginCheck;
 import com.example.demo.services.LoginService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://travelgo-31.web.app")
 public class LoginController {
 	
 	@Autowired

@@ -13,7 +13,8 @@ import com.example.demo.entities.Booking_payment;
 import com.example.demo.services.Booking_paymentService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://travelgo-31.web.app")
 
 public class Booking_paymentController {
 	

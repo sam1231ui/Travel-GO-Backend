@@ -21,7 +21,8 @@ import com.example.demo.services.HostService;
 import com.example.demo.services.PropertyService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://travelgo-31.web.app")
 public class PropertyController {
 	
 	@Autowired

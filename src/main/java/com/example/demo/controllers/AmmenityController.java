@@ -13,7 +13,8 @@ import com.example.demo.entities.Ammenity;
 import com.example.demo.services.AmmenityService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://travelgo-31.web.app")
 public class AmmenityController {
 	
 	@Autowired

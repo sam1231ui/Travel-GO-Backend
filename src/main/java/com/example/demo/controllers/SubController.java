@@ -11,7 +11,8 @@ import com.example.demo.entities.Subscribtion;
 import com.example.demo.services.SubService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://travelgo-31.web.app")
 public class SubController {
 	
 	@Autowired

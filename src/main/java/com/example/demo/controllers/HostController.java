@@ -18,7 +18,8 @@ import com.example.demo.services.SubService;
 import com.example.demo.services.Sub_paymentService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://travelgo-31.web.app")
 public class HostController {
 	
 	@Autowired

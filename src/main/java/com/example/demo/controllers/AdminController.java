@@ -11,7 +11,8 @@ import com.example.demo.entities.Admin;
 import com.example.demo.services.AdminService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://travelgo-31.web.app")
 
 public class AdminController {
 	

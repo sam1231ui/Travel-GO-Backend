@@ -16,7 +16,8 @@ import com.example.demo.services.PropertyService;
 import com.example.demo.services.TravellerService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://travelgo-31.web.app")
 public class BookingController {
 	
 	@Autowired
