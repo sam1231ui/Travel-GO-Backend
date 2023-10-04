@@ -12,7 +12,7 @@ import com.example.demo.services.AdminService;
 
 @RestController
 //@CrossOrigin(origins = "http://localhost:3000")
-@CrossOrigin(origins = "https://travelgo-31.web.app")
+@CrossOrigin(origins = "https://travelgo-front-end.vercel.app")
 
 public class AdminController {
 	
