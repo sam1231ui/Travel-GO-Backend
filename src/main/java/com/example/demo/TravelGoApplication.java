@@ -15,9 +15,9 @@ public class TravelGoApplication {
 		
 		System.out.println("Spring STARTED");
 	}
-	
-	@Bean
-	public WebMvcConfigurer configure() {
+
+    @Bean
+    WebMvcConfigurer configure() {
 		
 		return new WebMvcConfigurer() {
 			@Override
